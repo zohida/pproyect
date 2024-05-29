@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QQSning muhim ko'rsatkichlari</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="./../../../assets/css/normalize.css" />
+    <link rel="stylesheet" href="./../../../assets/css/main.css" />
+    <link rel="stylesheet" href="./../../../assets/css/style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container">
+        <div class="header-inner">
+          <div class="header-logo__box">
+            <a href="./../../../index.html">
+              <img
+                src="./../../../assets/images/logo.png"
+                alt="Soliq logo"
+                width="60"
+                height="60"
+              />
+            </a>
+            <h2 class="header-title">QQSning eng muhim ko'rsatkichlari</h2>
+          </div>
+          <div class="header-user__choice">
+            <div class="dropdown">
+              <div class="menu">
+                <span class="menu-text">O'zbekcha</span>
+                <button class="btn btn-dropdown">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="22"
+                    height="22"
+                    viewBox="0 0 22 22"
+                    fill="none"
+                  >
+                    <path
+                      d="M15.8521 7.60181C16.2101 7.24383 16.7905 7.24383 17.1485 7.60181C17.5065 7.95979 17.5065 8.54019 17.1485 8.89817L11.6485 14.3982C11.3015 14.7452 10.7427 14.7573 10.3809 14.4257L4.88091 9.38405C4.50772 9.04195 4.48251 8.4621 4.8246 8.08891C5.16669 7.71572 5.74655 7.6905 6.11974 8.0326L10.9728 12.4812L15.8521 7.60181Z"
+                      fill=" #0101b1"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <ul class="options">
+                <li class="option">O'zbekcha</li>
+                <li class="option">English</li>
+                <li class="option">Ўзбекча</li>
+                <li class="option">Русский</li>
+              </ul>
+            </div>
+            <div class="user-profile">
+              <img
+                src="./../../../assets/images/user.png"
+                alt="User"
+                width="32"
+                height="32"
+              />
+              <p class="user-name">Bahodirov Muzaffar Qodir o'g'li</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="sidebar">
+        <div class="sidebar-container">
+          <div class="sidebar-dropdown">
+            <div class="sidebar-menu">
+              <span class="menu-text">Respublika</span>
+              <button class="btn btn-dropdown">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22"
+                  height="22"
+                  viewBox="0 0 22 22"
+                  fill="none"
+                >
+                  <path
+                    d="M15.8521 7.60181C16.2101 7.24383 16.7905 7.24383 17.1485 7.60181C17.5065 7.95979 17.5065 8.54019 17.1485 8.89817L11.6485 14.3982C11.3015 14.7452 10.7427 14.7573 10.3809 14.4257L4.88091 9.38405C4.50772 9.04195 4.48251 8.4621 4.8246 8.08891C5.16669 7.71572 5.74655 7.6905 6.11974 8.0326L10.9728 12.4812L15.8521 7.60181Z"
+                    fill="#808080"
+                  />
+                </svg>
+              </button>
+            </div>
+            <ul class="city-options"></ul>
+          </div>
+
+          <ul class="sidebar-list">
+            <li class="sidebar-item">
+              <a class="sidebar-page" href="./index.html">
+                <span class="sidebar-page__name"
+                  >QQSning asosiy ko'rsatkichlari
+                </span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-page" href="./../sertificate/certifiate.html">
+                <span class="sidebar-page__name">QQS sertifikatlari</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-page" href="./../statistics/statistics.html">
+                <span class="sidebar-page__name"
+                  >QQS hisoboti ko'rsatkichlari</span
+                >
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-page" href="./../money/money.html">
+                <span class="sidebar-page__name">QQS tushumlari</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-page" href="./../back/back.html">
+                <span class="sidebar-page__name"> Qaytarilgan QQS </span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-page" href="./../credit/credit.html">
+                <span class="sidebar-page__name">QQS bo'yicha qarz </span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-page" href="./../debit/debit.html">
+                <span class="sidebar-page__name"
+                  >QQS bo'yicha ortiqcha to'lov</span
+                >
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="dashboard">
+        <div class="dashboard-container">
+          <div class="dashboard-title__box">
+            <h2 class="dashboard-title">
+              QQSning asosiy ko'rsatkichlari, mlrd.so'm/soni
+            </h2>
+            <label for="calendar">
+              <input type="date" id="calendar" />
+            </label>
+          </div>
+
+          <div class="dashboard-figures">
+            <div class="republic-figures">
+              <h3 class="figure-title">Respublika</h3>
+              <ul class="republic-list">
+                <li class="republic-items">
+                  <h4 class="figure-subtitle">QQS to'lovchilar soni</h4>
+                  <span class="figure-amount">283673</span>
+                </li>
+                <li class="republic-items">
+                  <h4 class="figure-subtitle">To'lanadigan QQS, mlrd.so'm</h4>
+                  <span class="figure-amount">21 468.2</span>
+                </li>
+                <li class="republic-items">
+                  <h4 class="figure-subtitle">QQS tushumlari, mlrd.so'm</h4>
+                  <span class="figure-amount">17 567.3</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="dashboard-cart">
+              <img src="./../../../assets/images/chart.jpg" alt="Chart" />
+              <p>Yirik soliq to'lovchilari hududlar bo'yicha</p>
+            </div>
+          </div>
+          <div class="graphics">
+            <h3 class="graphics-title">O'tgan yil bilan taqqoslash</h3>
+            <div class="garphics-lists">
+              <div class="graph-box">
+                <div class="box">
+                  <canvas id="chart1" width="200"></canvas>
+                  <div class="graph-info">
+                    <h5 class="graph-title">QQS to'lovchilar soni</h5>
+                    <ul class="graph-amount__list">
+                      <li class="graph-amount__item">
+                        <span class="span1">283673</span>
+                        <span>0 %</span>
+                      </li>
+
+                      <li class="graph-amount__item">
+                        <span class="span2">283673</span>
+                        <span>0</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="box">
+                  <canvas id="chart2" width="200"></canvas>
+                  <div class="graph-info">
+                    <h5 class="graph-title">Tovar aylanmasi</h5>
+                    <ul class="graph-amount__list">
+                      <li class="graph-amount__item">
+                        <span class="span1">119 201</span>
+                      </li>
+                      <li class="graph-amount__item">
+                        <span class="span2">0</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="box">
+                  <canvas id="chart3" width="200"></canvas>
+                  <div class="graph-info">
+                    <h5 class="graph-title"></h5>
+                    <ul class="graph-amount__list">
+                      <li class="graph-amount__item">
+                        <span class="span1">0</span>
+                        <span>0%</span>
+                      </li>
+
+                      <li class="graph-amount__item">
+                        <span class="span2">10205</span>
+                        <span>10205</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="box">
+                  <canvas id="chart4" width="200"></canvas>
+                  <div class="graph-info">
+                    <h5 class="graph-title"></h5>
+                    <ul class="graph-amount__list">
+                      <li class="graph-amount__item">
+                        <span class="span1">10 684.6</span>
+                        <span>3%</span>
+                      </li>
+
+                      <li class="graph-amount__item">
+                        <span class="span2">11102.6</span>
+                        <span>418.0</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="box">
+                  <canvas id="chart5" width="200"></canvas>
+                  <div class="graph-info">
+                    <h5 class="graph-title">QQS bo'yicha qarzdorlik</h5>
+                    <ul class="graph-amount__list">
+                      <li class="graph-amount__item">
+                        <span class="span1">5129.9</span>
+                        <span>8%</span>
+                      </li>
+
+                      <li class="graph-amount__item">
+                        <span class="span2">5548.1</span>
+                        <span>418.1</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="box">
+                  <canvas id="chart6" width="200"></canvas>
+                  <div class="graph-info">
+                    <h5 class="graph-title">QQS bo'yicha ortiqcha to'lov</h5>
+                    <ul class="graph-amount__list">
+                      <li class="graph-amount__item">
+                        <span class="span1">8186.2</span>
+                        <span>5 %</span>
+                      </li>
+
+                      <li class="graph-amount__item">
+                        <span class="span2">8602.1</span>
+                        <span>418.1</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bigchart-box">
+            <h3 class="graphics-title">QQS sertifikatlari soni</h3>
+             <div class="chart-box">
+                <canvas id="chart7"></canvas>
+             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./../../../assets/js/main.js"></script>
+    <script src="./../../../assets/js/chart.js"></script>
+  </body>
+</html>

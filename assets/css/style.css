@@ -1,0 +1,263 @@
+
+
+.header {
+    position: fixed;
+    width: 100%;
+    padding: 30px 0;
+    z-index: 10;
+    background-color: #f7f5f5;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo__box {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header-title {
+    color: #0101b1;
+}
+
+
+.header-user__choice {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* DROPDOWN STYLES */
+
+.dropdown {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.btn-dropdown {
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.menu-text {
+    text-align: center;
+}
+
+.options {
+    position: absolute;
+    top: 30px;
+    left: -10px;
+    background-color: #fff;
+    padding: 20px 10px;
+    border-radius: 4px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    display: none;
+}
+
+.option {
+    padding: 10px;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.option:hover {
+    color: #0101b1;
+}
+
+/* SIDEBAR STYLES */
+
+.sidebar {
+    position: fixed;
+    display: block;
+    float: left;
+    width: 28%;
+    left: 0;
+    height: 100vh;
+    background-color: rgba(89, 89, 105, 0.123);
+    margin-top: 120px;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+}
+
+.sidebar-container {
+    margin: 0 auto;
+}
+
+.sidebar-dropdown {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    max-width: 250px;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.sidebar-menu {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+}
+
+.sidebar-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 250px;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    gap: 50px;
+}
+
+
+.sidebar-page__name {
+    color: #000;
+}
+
+
+/* DASHBOARD STYLES */
+
+.dashboard {
+    display: block;
+    float: right;
+    width: 72%;
+    padding: 30px 0px 30px 30px;
+    margin-top: 120px;
+}
+
+.dashboard-title__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dashboard-title {
+    color: #0101b1;
+}
+
+#calendar {
+    max-width: 300px;
+    width: 100%;
+    outline: none;
+}
+
+.dashboard-figures {
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+/* Graph Styles */
+
+.graph-box {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+
+
+.chart-box{
+    position: relative;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#chart1, #chart2, #chart3, #chart4, #chart5, #chart6 {
+    width: 250px !important;
+}
+
+#chart7 {
+    width: 100%;
+}
+
+.graph-box .box {
+    position: relative;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    display: flex;
+}
+
+.graph-info {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-left: 20px;
+}
+
+.graph-amount__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.graph-amount__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.span1 {
+    color: blue;
+    font-weight: 700;
+}
+
+.span2 {
+    color: orange;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.republic-figures {
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+}
+
+.republic-list {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.dashboard-cart p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}

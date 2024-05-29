@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QQSning muhim ko'rsatkichlari</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="./../../../assets/css/normalize.css" />
+    <link rel="stylesheet" href="./../../../assets/css/main.css" />
+    <link rel="stylesheet" href="./../../../assets/css/style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container">
+        <div class="header-inner">
+          <div class="header-logo__box">
+            <a href="./../../../index.html">
+              <img
+                src="./../../../assets/images/logo.png"
+                alt="Soliq logo"
+                width="60"
+                height="60"
+              />
+            </a>
+            <h2 class="header-title">QQSning eng muhim ko'rsatkichlari</h2>
+          </div>
+          <div class="header-user__choice">
+            <div class="dropdown">
+              <div class="menu">
+                <span class="menu-text">O'zbekcha</span>
+                <button class="btn btn-dropdown">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="22"
+                    height="22"
+                    viewBox="0 0 22 22"
+                    fill="none"
+                  >
+                    <path
+                      d="M15.8521 7.60181C16.2101 7.24383 16.7905 7.24383 17.1485 7.60181C17.5065 7.95979 17.5065 8.54019 17.1485 8.89817L11.6485 14.3982C11.3015 14.7452 10.7427 14.7573 10.3809 14.4257L4.88091 9.38405C4.50772 9.04195 4.48251 8.4621 4.8246 8.08891C5.16669 7.71572 5.74655 7.6905 6.11974 8.0326L10.9728 12.4812L15.8521 7.60181Z"
+                      fill=" #0101b1"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <ul class="options">
+                <li class="option">O'zbekcha</li>
+                <li class="option">English</li>
+                <li class="option">Ўзбекча</li>
+                <li class="option">Русский</li>
+              </ul>
+            </div>
+            <div class="user-profile">
+              <img
+                src="./../../../assets/images/user.png"
+                alt="User"
+                width="32"
+                height="32"
+              />
+              <p class="user-name">Bahodirov Muzaffar Qodir o'g'li</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="sidebar">
+        <div class="sidebar-container">
+          <div class="sidebar-dropdown">
+            <div class="sidebar-menu">
+              <span class="menu-text">Respublika</span>
+              <button class="btn btn-dropdown">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22"
+                  height="22"
+                  viewBox="0 0 22 22"
+                  fill="none"
+                >
+                  <path
+                    d="M15.8521 7.60181C16.2101 7.24383 16.7905 7.24383 17.1485 7.60181C17.5065 7.95979 17.5065 8.54019 17.1485 8.89817L11.6485 14.3982C11.3015 14.7452 10.7427 14.7573 10.3809 14.4257L4.88091 9.38405C4.50772 9.04195 4.48251 8.4621 4.8246 8.08891C5.16669 7.71572 5.74655 7.6905 6.11974 8.0326L10.9728 12.4812L15.8521 7.60181Z"
+                    fill="#808080"
+                  />
+                </svg>
+              </button>
+            </div>
+            <ul class="city-options"></ul>
+          </div>
+
+          <ul class="sidebar-list">
+            <li class="sidebar-item">
+              <a class="sidebar-page" href="./../main-figures/index.html">
+                <span class="sidebar-page__name"
+                  >QQSning asosiy ko'rsatkichlari
+                </span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-page" href="./certifiate.html">
+                <span class="sidebar-page__name">QQS sertifikatlari</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-page" href="./../statistics/statistics.html">
+                <span class="sidebar-page__name"
+                  >QQS hisoboti ko'rsatkichlari</span
+                >
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-page" href="./../money/money.html">
+                <span class="sidebar-page__name">QQS tushumlari</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-page" href="./../back/back.html">
+                <span class="sidebar-page__name"> Qaytarilgan QQS </span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-page" href="./../credit/credit.html">
+                <span class="sidebar-page__name">QQS bo'yicha qarz </span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-page" href="./../debit/debit.html">
+                <span class="sidebar-page__name"
+                  >QQS bo'yicha ortiqcha to'lov</span
+                >
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="dashboard">
+        <div class="dashboard-container">
+          <div class="dashboard-title__box">
+            <h2 class="dashboard-title">
+              QQS sertifikatlari, soni
+            </h2>
+            <label for="calendar">
+              <input type="date" id="calendar" />
+            </label>
+          </div>
+
+    </div>
+    <script src="./../../../assets/js/main.js"></script>
+    <script src="./../../../assets/js/chart.js"></script>
+  </body>
+</html>
